@@ -1,4 +1,6 @@
+
 import { UserButton, useUser } from '@clerk/nextjs'
+
 
 export const metadata = {
   title: 'Dashboard',
@@ -31,6 +33,7 @@ export default function DashboardPage() {
 
         {/* SECCION: Body */}
         <div className={`flex-1 flex flex-col text-background-tx items-center overflow-y-auto `}>
+
             <UserButton />
             
           <h1 className={`my-auto text-3xl text-background-tx font-bold opacity-60`}>{pageData.name}
