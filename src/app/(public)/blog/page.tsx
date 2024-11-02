@@ -1,12 +1,12 @@
 
 export const metadata = {
   title: 'Blog',
-  description: 'Página de blog',
+  description: 'Página de blog público',
 };
 
 const pageData = {
   name: 'Blog',
-  description: 'Página de blog',
+  description: 'Página de blog público',
 }
 
 export default function BlogPage() {
