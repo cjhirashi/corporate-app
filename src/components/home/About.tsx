@@ -11,8 +11,8 @@ export const AboutComponent = () => {
 
   const iconStyle = {
     
-    width: '100px',
-    height: '100px',
+    width: '160px',
+    height: '160px',
     strokeWidth: '2px',
   }
 
@@ -43,8 +43,8 @@ export const AboutComponent = () => {
           </Button>
           
           <div className={`${styles.horizontal}`}>
-              <div className={`${styles.card}`}>
-                <div className={`${styles.user}`}>
+              <div className={`${styles.userContainer}`}>
+                <div className={`${styles.card} ${styles.user} ${styles.userColor1}`}>
                   <Image src="/img/auth/carlos.jpg" alt="Carlos Jiménez Hirashi" width={160} height={160}/>
                 </div>
                 <div className={`${styles.title3}`}>
@@ -52,8 +52,8 @@ export const AboutComponent = () => {
                 </div>
               </div>
 
-              <div className={`${styles.card}`}>
-                <div className={`${styles.user}`}>
+              <div className={`${styles.userContainer}`}>
+                <div className={`${styles.card} ${styles.user} ${styles.userColor1}`}>
                   <Image src="/img/auth/marcelo.jpg" alt="Carlos Jiménez Hirashi" width={160} height={160}/>
                 </div>
                 <div className={`${styles.title3}`}>
@@ -65,15 +65,15 @@ export const AboutComponent = () => {
           <div className={`${styles.horizontal}`}>
               <div className={`${styles.valores}`}>
                   <Lightbulb style={iconStyle}/>
-                  <h2 className={`${styles.subtitle}`}>Innovación</h2>
+                  <h2 className={`${styles.title2}`}>Innovación</h2>
               </div>
               <div className={`${styles.valores}`}>
                   <Brain style={iconStyle}/>
-                  <h2 className={`${styles.subtitle}`}>Experiencia</h2>
+                  <h2 className={`${styles.title2}`}>Experiencia</h2>
               </div>
               <div className={`${styles.valores}`}>
                   <Handshake style={iconStyle}/>
-                  <h2 className={`${styles.subtitle}`}>Compromiso</h2>
+                  <h2 className={`${styles.title2}`}>Compromiso</h2>
               </div>
           </div>
 

@@ -23,7 +23,7 @@ export const ServicesComponent = () => {
           </p>
 
           <div className={`${styles.horizontal}`}>
-            <div>
+            <div className={`${styles.card} ${styles.cardColor2}`}>
                 <ChartNetwork />
                 <DraftingCompass />
                 <h1>
@@ -34,7 +34,7 @@ export const ServicesComponent = () => {
                 </p>
             </div>
 
-            <div>
+            <div className={`${styles.card} ${styles.cardColor2}`}>
                 <SquareCode />
                 <HardHat />
                 <h1>
@@ -46,7 +46,7 @@ export const ServicesComponent = () => {
                 </p>
             </div>
 
-            <div>
+            <div className={`${styles.card} ${styles.cardColor2}`}>
                 <PocketKnife />
                 <Wrench />
                 <h1>
