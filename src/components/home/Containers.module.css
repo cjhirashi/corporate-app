@@ -1,0 +1,57 @@
+.containerB{
+    @apply container flex flex-col gap-8 items-center 
+    mx-auto py-10 px-8
+    ;
+}
+
+.background1{
+    @apply  bg-background text-foreground;
+}
+
+.background2{
+    @apply bg-card text-card-foreground;
+}
+
+.title{
+    @apply text-3xl font-bold text-center ;
+}
+
+.title2{
+    @apply text-2xl font-bold text-center ;
+}
+
+.title3{
+    @apply text-xl font-bold text-center ;
+}
+
+.subtitle{
+    @apply text-xl font-bold text-center ;
+}
+
+.card{
+    @apply flex flex-col gap-8 items-center justify-center 
+    w-80 h-80
+    ;
+}
+
+.valores{
+    @apply flex flex-col gap-8 items-center
+    p-8
+    text-primary;
+}
+
+.horizontal{
+    @apply flex flex-col md:flex-row gap-8;
+}
+
+.user{
+    @apply 
+    w-40 h-40
+    rounded-full
+    overflow-hidden
+    border-8 border-card
+    shadow-md shadow-shadow hover:shadow-lg hover:shadow-shadow
+    hover:scale-110
+    transition-all duration-700
+    bg-card text-card-foreground;
+}
